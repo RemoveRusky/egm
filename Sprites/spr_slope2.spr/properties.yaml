@@ -1,0 +1,16 @@
+id: 9
+preload: 1
+transparent: 1
+smooth_edges: 0
+origin_x: 1
+origin_y: 0
+shape: 0
+bbox_mode: 0
+bbox_left: 1
+bbox_right: 16
+bbox_top: 0
+bbox_bottom: 15
+width: 17
+height: 16
+subimages:
+  - data/37152gmk_data11

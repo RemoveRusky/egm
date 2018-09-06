@@ -1,0 +1,12 @@
+{
+swim=false// Variable used while the player is underwater
+h2o=420 /* For the oxygen kept in water,if it reaches zero,the player dies.The
+timming here is 7 seconds,add 15 for each second... */
+minute=0
+second=0 //These two variables will be used as a timer.
+alarm[0]=room_speed //This will start the timer after one second (room_speed)
+
+
+
+/**/
+}

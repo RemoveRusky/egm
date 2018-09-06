@@ -1,0 +1,9 @@
+{
+if dead=0 {repeat(random(200)) instance_create(x,y,obj_blood) // Create the blood effect with Lite gmk
+dead=1}
+vspeed=-1 // For heavenly float
+
+
+
+/**/
+}

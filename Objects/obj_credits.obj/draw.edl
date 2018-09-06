@@ -1,0 +1,10 @@
+{
+{draw_set_color(c_black) // Sets the color of the credits background
+draw_rectangle(0,0,room_width,room_height,false) // Fills the screen with a black rectangle
+draw_set_color(c_white) // Color of the credits text
+draw_set_font(ft_credits)// Sets the font...
+draw_text(room_width/2,texty,credits)} // draws the credits text.The font halignment is at the center,do not forget.
+
+
+/**/
+}

@@ -1,0 +1,7 @@
+action_set_gravity(270,0.25)
+{
+speed=random(2)
+direction=random(360)
+image_alpha = 1
+/**/
+}

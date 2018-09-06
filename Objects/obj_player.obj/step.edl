@@ -1,0 +1,58 @@
+{
+if dead=false
+{
+// Water
+if place_meeting(x,y,obj_water){swim=true} else {swim=false}
+// Gravity
+if swim=false{ // No gravity in the water!
+if place_free(x,y+1){gravity = 0.5} else {gravity = 0} // If there's nothing below me,i fall
+gravity_direction = 270 friction = 0} // the gravity points down...
+else
+if swim=true
+{gravity = 0.2 gravity_direction = 90 friction = 0.1} // So that the player floats and the friction is for making the 
+// difference between water and air,the movement should be more difficult
+// Movement
+if keyboard_check(vk_left) && place_free(x-4,y){x-=4} // Going left if there's no obstacle at 4 pixel per step.
+if keyboard_check(vk_right) && place_free(x+4,y){x+=4} // Going right
+if keyboard_check_pressed(vk_up) && !place_free(x,y+1){vspeed=-7} // Jumping if something's under my feets
+if keyboard_check(vk_up) && place_meeting(x,y,obj_water){vspeed-=0.7} //Going out of water
+if keyboard_check(vk_down) && place_meeting(x,y,obj_water) && !place_meeting(x,y+5,obj_solid){vspeed+=0.9} // Diving
+// wall jumping right
+if place_meeting(x+3,y,obj_solid) && 
+keyboard_check_pressed(vk_up) &&
+keyboard_check(vk_right) && can_walljump_r = 1 && 
+place_free(x,y+1){vspeed =-6 // All this means:If there's a wall at the right,if the right key is pressed and if up is used..
+can_walljump_r = 0 can_walljump_l = 1} // Forces the player to switch side so that he doesn't jump on the same wall.
+// wall jumping left
+if place_meeting(x-3,y,obj_solid) && 
+keyboard_check_pressed(vk_up) &&
+keyboard_check(vk_left) && can_walljump_l = 1 &&
+place_free(x,y+1){vspeed =-6
+can_walljump_r = 1 can_walljump_l = 0} // Same as wall jumping right but at left side
+// grid snapping
+if place_meeting(x,y+1,obj_hblock) || place_meeting(x,y+1,obj_slope_1){
+move_snap(1,1)} else {move_snap(4,1)}
+// Slope /
+if keyboard_check(vk_right){if place_meeting(x+1,y,obj_slope_1){
+if place_free(x+1,y-1){x+=2 y-=2}}}// Climbing up
+if keyboard_check(vk_left){if place_meeting(x-1,y,obj_slope_1){
+if place_free(x-1,y-1){x-=2 y-=2}}}// Going down
+if keyboard_check(vk_nokey){if place_meeting(x+1,y+1,obj_slope_1){x-=1}}// Sliping down
+// Slope \
+if keyboard_check(vk_left){if place_meeting(x-1,y,obj_slope_2){
+if place_free(x-1,y-1){x-=2 y-=2}}}// Climbing up
+if keyboard_check(vk_right){if place_meeting(x+1,y,obj_slope_2){
+if place_free(x+1,y-1){x+=2 y-=2}}}// Going down
+if keyboard_check(vk_nokey){if place_meeting(x-1,y+1,obj_slope_2){x+=1}}// Sliping down
+}
+// Death
+if dead=1{vspeed=-1 gravity=0 gravity_direction=270 {if image_alpha>0 {image_alpha-=0.02} else {if instance_exists(obj_point){instance_destroy()}}}}/*
+What's above adds a cool death effects.The player should look like going to heaven. ^^^This value is the dissapearing speed.*/ 
+if place_meeting(x,y+vspeed,obj_water)&&!place_meeting(x,y-1,obj_water)&&vspeed>2
+{repeat(20*vspeed) instance_create(x,y,obj_splash)}// Splash effect when plunging into water
+
+
+
+
+/**/
+}

@@ -1,0 +1,8 @@
+id: 6
+parent_name: obj_solid
+sprite_name: spr_door
+mask_name: ""
+depth: 0
+solid: 1
+visible: 1
+persistent: 0

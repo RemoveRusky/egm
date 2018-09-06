@@ -1,0 +1,8 @@
+id: 21
+parent_name: ""
+sprite_name: spr_water2
+mask_name: ""
+depth: -200
+solid: 0
+visible: 1
+persistent: 0

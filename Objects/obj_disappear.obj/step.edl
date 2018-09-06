@@ -1,0 +1,10 @@
+{
+if place_meeting(x,y-1,obj_player){candisa = true} // if the player walks on me,i start the fall count
+if candisa = true{disatimer-=1} // The player has 10 steps(falltimer) before i start dissapearing
+if disatimer = 0 {disappearing = true} // i start dissappearing
+if disappearing = true {if image_alpha > 0 {image_alpha-=0.2} else {instance_destroy()}}// if i am invisible,i must destroy.
+
+
+
+/**/
+}

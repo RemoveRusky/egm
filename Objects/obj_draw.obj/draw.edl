@@ -1,0 +1,39 @@
+{
+draw_set_font(-1) // This is the default font.When restarting,the credits font would stay without this code.
+draw_set_halign(fa_left) // Sets the horizontal alignment of the font
+draw_set_color(c_ltgray) // Could be another color,it's up to you
+draw_text(0,0,'points :') // The text is drawn at the top-left corner
+draw_set_color(c_white) // Could be removed...The points variable text would be the same color as before
+draw_text(52,0,obj_player.points) /* The score value is drawn next to it
+if the player wouldn't had the death fade effect,this action could have been done with him.The reason i add a new object is
+that it would have needed the pro edition just for that only single action.*/
+if instance_exists(obj_point)=false
+{draw_set_color(c_black)
+draw_rectangle(-1,0,60,16,false) // Covers the old texts
+draw_set_color(c_white)
+draw_set_halign(fa_center) // aligns the font horizontally.
+draw_text(room_width/2,0,'You have beat the game in ' +string(minute)+':'+string(second)+'!')
+draw_text(room_width/2,room_height-16,'Suicide to roll the credits')} 
+// Above writes a new text + the minutes and seconds. room_width/2 means half of the room_width.
+draw_set_color(c_dkgray)
+if swim=true draw_rectangle(obj_player.x-6,obj_player.y-10,obj_player.x+21,obj_player.y-5,true)
+// Above is the rectangle drawn to tell how much oxygen he lost when the player is in the water
+if swim=true draw_sprite_stretched(spr_H2O,0,obj_player.x-6,obj_player.y-10,h2o/15,6)
+// Above is the remaining oxygen of the player 
+/* the swim variable is not the same as the player's because it's a local variable.If it would have been global.swim,
+it would have been the same variable for all the objects.Now it's like a new one but with the same name */
+// Now for the Timer
+if instance_exists(obj_point) // You should understand this
+{
+draw_set_halign(fa_right) //tThis too
+draw_set_color(c_white) // so as this.
+if second>=10{draw_text(room_width,0,string(minute)+":"+string(second))} // if there is more than 10 seconds,just draw the seconds
+if second<10 {draw_text(room_width,0,string(minute)+":0"+string(second))} // if there is only one number,like 2,3...Then there has to be a 0 before it.
+}
+
+
+
+
+
+/**/
+}

@@ -1,0 +1,33 @@
+//////////////////////////////////////////////////////////////
+//This script explains some coding basics of gamemaker.     //
+//You could just go to Help,Contents and select Gml coding. //
+//If colors are annoying you can set them off/on with F12.  //
+//You can also edit them in File>Preferences.               //
+//////////////////////////////////////////////////////////////
+/*
+First, '/*' is used to put a comment for all the following lines until you
+put this: */ get_string('Example','see?')
+// Also,you can put this for a single line.
+get_string('just','the above line')
+/* I won't explain everything,just a couple of things of the game.
+Look at the player,there should be a part that is called 'gravity'.I hope you see
+it.Anyway,First,there is a check:*/
+if place_free(x,y+1) // If there is nothing under the bottom Bounding box.
+{gravity=0.5} // The gravity is like an upgrading speed.And i add 
+else /* Means the opposite of the check,so*/ if !place_free(x,y+1) // "!" means the opposite of the next code.So if the place is not free...
+{gravity=0} // Stops upgrading the speed,but the speed is still there!
+// So i stop that speed in the collision with solid with this code:
+vspeed=0// vertical speed = 0 pixel per step.also i put:
+move_contact(270)// so there is no space between the 2 objects. 
+// Where is the gravity going? Now it's going left because it's the default direction
+gravity_direction=270// first,it goes right,then you add degrees.270 Means down.You could also do -90.
+// -270 means up,so as 90.
+// If the specific key is being pressed on the keyboard.
+if keyboard_check(vk_right) /* if right is pressed.vk_right is the right key */                         {get_string('x','x')} 
+/* here are other coded keys */                                                                          keyboard_check(choose(                                                 
+vk_left,vk_up,vk_down,vk_space,vk_nokey,vk_anykey,  ord('A'),ord('5'),ord('Z')/* Letters & Digits(don't forget the 's and ()s. */                                      ))       
+/* There is another way to do this user interaction.You could make specific events. 
+I prefer putting every codes in the step event,it is easier to correct thought. */
+// There is also this that you might not have understood: && simply means "and" || means "or" {} are starts and end of blocks.
+// =1 :equals 1 | +=1 :relative to +1 | -= :relative to -1
+

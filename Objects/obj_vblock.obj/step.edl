@@ -1,0 +1,9 @@
+{
+if place_free(x,y+vsp){y+=round(vsp)} else {vsp = -vsp} // collision check
+if place_meeting(x,y-3,obj_player) && vsp > 0 {obj_player.y+=2} //taking the player
+if place_meeting(x,y-1,obj_player) && vsp < 0 {obj_player.y-=2} // taking the player
+if place_meeting(x,y-1,obj_player){with(obj_player){if place_meeting
+(x,y-2,obj_solid){with(obj_vblock){vsp = -vsp}}}}// if there is a colision above the player when he is with me,i change direction.
+
+/**/
+}

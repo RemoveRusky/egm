@@ -1,0 +1,5 @@
+{
+if obj_button.activated = true {instance_destroy()}// If the player presses the button,i destroy myself
+
+/**/
+}

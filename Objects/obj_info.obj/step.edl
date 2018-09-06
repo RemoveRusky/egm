@@ -1,0 +1,7 @@
+var __if__ = false;
+__if__ = (argument_relative = 1, action_if_object(1,0,-1));
+if (__if__)
+{
+action_change_object(0,1)
+action_show_info()
+}

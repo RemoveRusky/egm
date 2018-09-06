@@ -1,0 +1,4 @@
+{
+if obj_player.y < y-8 {solid=true} else {solid=false} // The player can walk on me,but will pass over me if he lands on me.
+/**/
+}

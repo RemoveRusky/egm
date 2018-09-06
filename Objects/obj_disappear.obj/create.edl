@@ -1,0 +1,9 @@
+{
+// Setting the variables
+disatimer = 10 // disappear timer
+disappearing = false  // disappearing...
+candisa = false // can disappear
+image_alpha=1 // Just to make sure the computer recognize the future action
+
+/**/
+}

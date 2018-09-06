@@ -1,0 +1,6 @@
+{
+// if nothing holds me from above, i can fall
+if place_free(x,y-2){gravity=0.5}
+gravity_direction=270
+/**/
+}

@@ -1,0 +1,5 @@
+{
+if obj_player.dead=0 // So that while floating,the player doesn't get a boost
+if place_meeting(x,y-1,obj_player){obj_player.vspeed = -12} // Ginving a straight boost to the player
+/**/
+}

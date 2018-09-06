@@ -1,0 +1,6 @@
+{
+if place_free(x+hsp,y){x+=hsp} else {hsp = -hsp} // changing direction in contact of solid block
+if place_meeting(x,y-1,obj_player){obj_player.x += hsp} // taking the player to my speed
+if place_meeting(x+hsp,y,obj_player){hsp=-hsp} // changing direction in contact of the player
+/**/
+}

@@ -1,0 +1,468 @@
+id: 0
+caption: ""
+width: 368
+height: 368
+hsnap: 16
+vsnap: 16
+isometric: 0
+speed: 40
+persistent: 0
+color: 8355711
+show_color: 1
+enable_views: 0
+backgrounds:
+  - visible: 0
+    foreground: 0
+    background_name: back_gradient1
+    x: 0
+    y: 0
+    htiled: 0
+    vtiled: 0
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 1
+  - visible: 0
+    foreground: 0
+    background_name: back_gradient2
+    x: 0
+    y: 0
+    htiled: 0
+    vtiled: 0
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 1
+  - visible: 0
+    foreground: 0
+    background_name: back_gradient3
+    x: 0
+    y: 0
+    htiled: 0
+    vtiled: 0
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 1
+  - visible: 0
+    foreground: 0
+    background_name: back_gradient4
+    x: 0
+    y: 0
+    htiled: 0
+    vtiled: 0
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 1
+  - visible: 0
+    foreground: 0
+    background_name: back_gradient4
+    x: 0
+    y: 0
+    htiled: 0
+    vtiled: 0
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 1
+  - visible: 0
+    foreground: 0
+    background_name: ""
+    x: 0
+    y: 0
+    htiled: 1
+    vtiled: 1
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 0
+  - visible: 0
+    foreground: 0
+    background_name: ""
+    x: 0
+    y: 0
+    htiled: 1
+    vtiled: 1
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 0
+  - visible: 0
+    foreground: 0
+    background_name: ""
+    x: 0
+    y: 0
+    htiled: 1
+    vtiled: 1
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 0
+views:
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+instance-layers:
+  - Format: svg-d
+    Data: |
+      I 102741 o "obj_booster" P 256, 64
+      i 102765 X 240
+      i 102766 X 224
+      i 102770 X 160
+      i 102771 X 144
+      i 102772 X 128
+      i 102773 X 112
+      i 102774 X 96
+      i 102775 X 80
+      i 102776 X 64
+      i 102777 X 48
+      i 102778 X 32
+      i 102815 X 208
+      i 102816 X 192
+      i 102817 X 176
+      i 102845 P 0, 208
+      I 102700 o "obj_button" P 160, 192
+      I 102690 o "obj_crate" P 48, 144
+      I 102701 o "obj_disappear" p 112, 32
+      i 102834 p 32, 16
+      i 102835 x 16
+      i 102836 x 16
+      i 102837 x 16
+      i 102857 P 80, 320
+      i 102858 Y 304
+      i 102860 y 32
+      I 102691 o "obj_door" P 16, 128
+      I 102575 o "obj_draw" P 0, 0
+      I 102519 o "obj_hblock" P 160, 48
+      I 102861 o "obj_info" P 80, 352
+      I 102515 o "obj_jump_non" P 304, 192
+      i 102516 x 16
+      i 102723 P 160, 144
+      I 102594 o "obj_player" P 80, 272
+      I 102649 o "obj_point" P 16, 192
+      I 102563 o "obj_rope" P 80, 128
+      i 102564 X 96
+      i 102565 x 16
+      i 102566 x 16
+      i 102570 x 64
+      i 102571 x 16
+      i 102572 x 16
+      i 102573 x 16
+      i 102574 x 16
+      i 102720 X 144
+      i 102721 x 16
+      i 102722 x 16
+      i 102728 p 16, 48
+      i 102729 x 16
+      i 102730 x 16
+      i 102731 x 16
+      I 102630 o "obj_slope_1" p 96, -48
+      I 102631 o "obj_slope_2" X 288
+      i 102653 P 32, 208
+      I 102335 o "obj_solid" P 0, 352
+      i 102336 X 16
+      i 102337 X 32
+      i 102338 X 48
+      i 102339 X 64
+      i 102341 X 96
+      i 102342 x 16
+      i 102343 x 16
+      i 102344 x 16
+      i 102345 x 16
+      i 102346 x 16
+      i 102347 x 16
+      i 102348 x 16
+      i 102349 x 16
+      i 102350 x 16
+      i 102351 x 16
+      i 102359 x 96
+      i 102360 X 336
+      i 102361 X 320
+      i 102362 X 304
+      i 102363 X 288
+      i 102364 X 272
+      i 102365 P 352, 0
+      i 102366 Y 16
+      i 102367 Y 32
+      i 102368 Y 48
+      i 102369 Y 64
+      i 102370 Y 80
+      i 102371 Y 96
+      i 102372 y 16
+      i 102373 y 16
+      i 102374 y 16
+      i 102375 y 16
+      i 102376 y 16
+      i 102377 y 16
+      i 102378 y 16
+      i 102379 y 16
+      i 102383 y 32
+      i 102384 y 16
+      i 102385 y 16
+      i 102390 y 48
+      i 102391 Y 320
+      i 102392 Y 304
+      i 102393 Y 240
+      i 102394 P 336, 0
+      i 102395 X 320
+      i 102396 X 304
+      i 102397 X 288
+      i 102398 X 272
+      i 102399 X 256
+      i 102400 X 240
+      i 102401 X 224
+      i 102402 X 208
+      i 102403 X 192
+      i 102404 X 176
+      i 102405 X 160
+      i 102406 X 144
+      i 102407 X 128
+      i 102408 X 112
+      i 102409 X 96
+      i 102410 X 80
+      i 102411 X 64
+      i 102412 X 48
+      i 102413 X 32
+      i 102414 X 16
+      i 102416 P 0, 16
+      i 102417 Y 32
+      i 102418 Y 48
+      i 102419 Y 64
+      i 102420 Y 80
+      i 102421 Y 96
+      i 102422 y 16
+      i 102423 y 16
+      i 102424 y 16
+      i 102425 y 16
+      i 102429 y 64
+      i 102430 y 16
+      i 102431 y 16
+      i 102434 y 16
+      i 102435 y 16
+      i 102436 y 16
+      i 102437 y 16
+      i 102438 y 16
+      i 102446 P 64, 304
+      i 102448 X 96
+      i 102449 x 16
+      i 102450 x 16
+      i 102451 x 16
+      i 102455 x 64
+      i 102456 y 16
+      i 102457 y 16
+      i 102499 P 336, 192
+      i 102501 P 208, 288
+      i 102503 p 80, -96
+      i 102504 X 272
+      i 102505 Y 176
+      i 102506 Y 160
+      i 102507 Y 144
+      i 102508 Y 128
+      i 102509 Y 112
+      i 102510 Y 96
+      i 102511 Y 80
+      i 102512 Y 64
+      i 102513 Y 48
+      i 102576 P 0, 0
+      i 102589 P 48, 160
+      i 102591 X 16
+      i 102611 X 32
+      i 102654 Y 128
+      i 102655 X 48
+      i 102656 X 64
+      i 102666 P 208, 272
+      i 102702 P 144, 176
+      i 102703 y 16
+      i 102704 y 16
+      i 102706 x 16
+      i 102707 x 16
+      i 102708 Y 192
+      i 102709 Y 176
+      i 102724 P 144, 160
+      i 102725 Y 144
+      i 102727 x 32
+      i 102739 p 80, 32
+      i 102818 P 16, 16
+      i 102838 P 256, 192
+      i 102847 P 16, 208
+      I 102517 o "obj_spikes" P 336, 144
+      i 102632 X 288
+      i 102781 P 256, 16
+      i 102782 X 240
+      i 102783 X 224
+      i 102784 X 208
+      i 102785 X 192
+      i 102786 X 176
+      i 102787 X 160
+      i 102788 X 144
+      i 102789 X 128
+      i 102790 X 112
+      i 102791 X 96
+      i 102792 X 80
+      i 102793 X 64
+      i 102794 X 48
+      i 102795 X 32
+      i 102797 P 240, 80
+      i 102798 X 224
+      i 102799 X 208
+      i 102803 X 192
+      i 102804 X 176
+      i 102805 X 160
+      i 102806 X 144
+      i 102807 X 128
+      i 102808 X 112
+      i 102809 X 96
+      i 102810 X 80
+      i 102811 X 64
+      i 102828 P 192, 208
+      i 102829 x 16
+      i 102830 x 16
+      i 102831 x 16
+      i 102833 x 32
+      i 102839 X 256
+      i 102846 P 0, 176
+      I 102520 o "obj_vblock" P 16, 64
+      I 102458 o "obj_water" P 224, 272
+      i 102459 x 16
+      i 102460 x 16
+      i 102461 x 16
+      i 102462 x 16
+      i 102463 x 16
+      i 102464 x 16
+      i 102466 x 16
+      i 102467 y 16
+      i 102468 X 320
+      i 102469 X 304
+      i 102470 X 288
+      i 102471 X 272
+      i 102472 X 256
+      i 102473 X 240
+      i 102474 X 224
+      i 102475 y 16
+      i 102476 x 16
+      i 102477 x 16
+      i 102478 x 16
+      i 102479 x 16
+      i 102480 x 16
+      i 102481 x 16
+      i 102482 x 16
+      i 102483 y 16
+      i 102484 X 320
+      i 102485 X 304
+      i 102486 X 288
+      i 102487 X 272
+      i 102488 X 256
+      i 102489 X 240
+      i 102490 X 224
+      i 102491 y 16
+      i 102492 x 16
+      i 102493 x 16
+      i 102494 x 16
+      i 102495 x 16
+      i 102496 x 16
+      i 102497 x 16
+      i 102498 x 16
+tile-layers:
+  []

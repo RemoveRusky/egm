@@ -1,0 +1,28 @@
+{
+draw_set_font(ft_intro) // Alba font.With these effects,it's good to have a good thick text
+draw_set_halign(fa_center) // horizontally aligns the font.
+draw_set_color(c_red) // The text shadow color.
+draw_text(room_width/2+2/*the'+2' is the shadow's distance to the text*/,room_width/3+3,'Put your text here')//Draws the text
+
+draw_set_color(c_black) // The text color
+draw_text(room_width/2,room_width/3,'Put your text here')//Draws the text
+/* notice that the first code(red text) is written first.So the black text is drawn over
+the red one. */
+draw_set_color(c_dkgray) // THE SHADOW OF THE TEXT AGAIN,olive color is also nice... 
+draw_text(room_width/2+textx,2*room_height/3+texty,'Text by:#Reaper99990')/* The text engine is by me...
+You should know that the draw event is like the step,it always changes.So as the shadow
+position,textx and texty,is moving in the step event,the drawed text will also move
+as the draw updated its position. */
+draw_set_color(c_lime)
+draw_text(room_width/2,2*room_height/3,'Text by:#Reaper99990') // This text is drawn over the hyperactive shadow.
+
+draw_set_color(c_ltgray) //Shadow color
+draw_text(room_width/2+2*textx,room_height/5+2*texty,time_left) // This time,the shadow will move 2 times more far away the text
+if time_left=3 draw_set_color(c_maroon) // You should understand this.
+if time_left=2 draw_set_color(c_red)
+if time_left=1 draw_set_color(c_yellow)
+if time_left=0 draw_set_color(c_green)
+draw_text(room_width/2,room_height/5,time_left) // Draws the text over the shadow,as it's after the other code
+draw_circle(room_width/2,room_height/5+24,radius,true) // Draws a circle that keeps growing.It starts on the countdown number
+/**/
+}

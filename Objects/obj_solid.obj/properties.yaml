@@ -1,0 +1,8 @@
+id: 0
+parent_name: ""
+sprite_name: spr_block
+mask_name: ""
+depth: 1
+solid: 1
+visible: 1
+persistent: 0

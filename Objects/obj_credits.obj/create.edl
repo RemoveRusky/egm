@@ -1,0 +1,8 @@
+{
+credits="Credits####Producer :#Reaper99990##Tutorials :#Top_hunter7#Witte#Mark Overmars#Rosco22#dinsdale##Special thanks to:#Jujittsubb777##I made just a bit of this #game,
+what i did was assembling#all of my learnings to make#this full tutorial.##Please leave comments!####Press Q to end the game#Press R to restart the game." 
+// Above sets the credits text(instead of rewriting it in each code...)
+texty=room_width+16 // Hides the text at the beginning   
+
+/**/
+}

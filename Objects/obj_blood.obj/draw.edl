@@ -1,0 +1,6 @@
+{
+// Simple blood effect,just for fun
+draw_sprite(spr_blood,-1,x,y)
+draw_sprite(spr_blood,-1,x+1,y+1)
+/**/
+}

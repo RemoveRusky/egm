@@ -1,0 +1,13 @@
+{
+if dead = 0 // If i am not floating to heaven...
+{
+if vspeed > 0 && !place_free(x,y+vspeed) {move_contact(270) // So that i don't leave a space between me and the block
+can_walljump_r=1 can_walljump_l=1} // resetting the variables
+vspeed = 0 // i got to stop flying.
+}
+else
+{other.solid=false} // So that when i die and float to heaven,i don't get stuck in the walls
+
+
+/**/
+}

@@ -1,0 +1,9 @@
+{
+textx=choose(-5,-4,-3,-2,-1,1,2,3,4,5) // This will be used for a text effect.
+texty=choose(-5,-4,-3,-2,-1,1,2,3,4,5) // The y-coordinate of the text...
+alarm[0]=room_speed //So the game starts after 3 seconds.
+time_left=3 //Amount of seconds before game starts
+radius=0 // Used in the Countdown
+
+/**/
+}

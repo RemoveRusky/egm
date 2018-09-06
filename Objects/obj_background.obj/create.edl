@@ -1,0 +1,9 @@
+{
+image_speed=0
+image_alpha=0
+visible=true // You get it?
+image_index=choose(0,1,2,3) // Randomizes the background gradient.
+need_alpha=true // If i want alpha.It's a variable i invented...
+// Note that if you set a higher depth,it could hide all,then disappear...
+/**/
+}

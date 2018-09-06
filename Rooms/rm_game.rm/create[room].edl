@@ -1,0 +1,7 @@
+// "This would just randomize the background when the room is started"
+// background_visible[choose(0,1,2,3)]=true
+// instead,i put a flashing background.Go see 'obj_background'
+instance_create(0,0,obj_background)
+
+
+

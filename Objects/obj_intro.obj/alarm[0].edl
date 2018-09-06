@@ -1,0 +1,6 @@
+{
+if time_left>0{time_left-=1}else{transition_kind=21;room_goto_next()} // if The countdown reaches zero,game starts with a fade out-in transition.
+alarm[0]=room_speed
+radius=0
+/**/
+}

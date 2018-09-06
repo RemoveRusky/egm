@@ -1,0 +1,10 @@
+{
+if place_meeting(obj_player.x,obj_player.y-1,obj_water){swim=true} else {swim=false}
+// If the "head" of the player is in the water,i draw the H2O bar
+if swim=true {h2o-=1} else {h2o=420} // lowers the oxygen while underwater
+if h2o=0 {obj_player.dead=1} /*Initializes the death effect when the player has no
+more oxygen*/
+if obj_player.dead=true&&!instance_exists(obj_point){instance_change(obj_credits,true)}// Changes to credits 
+
+/**/
+}

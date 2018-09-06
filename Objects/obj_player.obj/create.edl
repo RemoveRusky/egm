@@ -1,0 +1,13 @@
+{
+ // Walljumping variables
+can_walljump_l = 1
+can_walljump_r = 1
+dead=false // Blood effect...Not important
+image_alpha=1 // used at death.image_alpha means the transparency of the image.1 means full obacity while 0 means invisible.
+points=0// Score
+swim=false // Used for the water gravity
+
+
+
+/**/
+}

@@ -1,0 +1,8 @@
+id: 30
+parent_name: ""
+sprite_name: spr_background
+mask_name: ""
+depth: 100
+solid: 0
+visible: 0
+persistent: 0

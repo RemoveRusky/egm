@@ -1,0 +1,8 @@
+id: 9
+parent_name: ""
+sprite_name: spr_rope
+mask_name: ""
+depth: 0
+solid: 1
+visible: 1
+persistent: 0

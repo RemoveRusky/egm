@@ -1,0 +1,10 @@
+id: 0
+font_name: Arial
+size: 20
+bold: 1
+italic: 0
+ranges:
+  - min: 32
+    max: 127
+charset: 0
+antialias: 0

@@ -1,0 +1,27 @@
+id: 13
+preload: 1
+transparent: 1
+smooth_edges: 0
+origin_x: 0
+origin_y: 0
+shape: 0
+bbox_mode: 0
+bbox_left: 0
+bbox_right: 15
+bbox_top: 0
+bbox_bottom: 15
+width: 16
+height: 16
+subimages:
+  - data/37152gmk_data19
+  - data/37152gmk_data7
+  - data/37152gmk_data9
+  - data/37152gmk_data10
+  - data/37152gmk_data14
+  - data/37152gmk_data16
+  - data/37152gmk_data27
+  - data/37152gmk_data17
+  - data/37152gmk_data20
+  - data/37152gmk_data22
+  - data/37152gmk_data40
+  - data/37152gmk_data24

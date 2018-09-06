@@ -1,0 +1,212 @@
+id: 3
+caption: ""
+width: 368
+height: 368
+hsnap: 16
+vsnap: 16
+isometric: 0
+speed: 40
+persistent: 0
+color: 8421504
+show_color: 0
+enable_views: 0
+backgrounds:
+  - visible: 1
+    foreground: 0
+    background_name: back_intro
+    x: 0
+    y: 0
+    htiled: 0
+    vtiled: 0
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 1
+  - visible: 0
+    foreground: 0
+    background_name: ""
+    x: 0
+    y: 0
+    htiled: 1
+    vtiled: 1
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 0
+  - visible: 0
+    foreground: 0
+    background_name: ""
+    x: 0
+    y: 0
+    htiled: 1
+    vtiled: 1
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 0
+  - visible: 0
+    foreground: 0
+    background_name: ""
+    x: 0
+    y: 0
+    htiled: 1
+    vtiled: 1
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 0
+  - visible: 0
+    foreground: 0
+    background_name: ""
+    x: 0
+    y: 0
+    htiled: 1
+    vtiled: 1
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 0
+  - visible: 0
+    foreground: 0
+    background_name: ""
+    x: 0
+    y: 0
+    htiled: 1
+    vtiled: 1
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 0
+  - visible: 0
+    foreground: 0
+    background_name: ""
+    x: 0
+    y: 0
+    htiled: 1
+    vtiled: 1
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 0
+  - visible: 0
+    foreground: 0
+    background_name: ""
+    x: 0
+    y: 0
+    htiled: 1
+    vtiled: 1
+    hspeed: 0.000000
+    vspeed: 0.000000
+    stretch: 0
+views:
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+  - visible: 0
+    xview: 0
+    yview: 0
+    wview: 640
+    hview: 480
+    xport: 0
+    yport: 0
+    wport: 640
+    hport: 480
+    hborder: 32
+    vborder: 32
+    hspeed: -1.000000
+    vspeed: -1.000000
+    object_following: ""
+instance-layers:
+  - Format: svg-d
+    Data: |
+      I 102853 o "obj_intro"
+tile-layers:
+  []

@@ -1,0 +1,8 @@
+{
+if image_alpha>=1{alarm[1]=1}
+if image_alpha<=0{alarm[0]=1}
+if need_alpha=true{image_alpha+=0.01}
+if need_alpha=false{image_alpha-=0.01}
+
+/**/
+}

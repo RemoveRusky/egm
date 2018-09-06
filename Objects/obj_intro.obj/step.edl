@@ -1,0 +1,10 @@
+{
+textx=choose(-5,-4,-3,-2,-1,1,2,3,4,5) 
+texty=choose(-5,-4,-3,-2,-1,1,2,3,4,5)
+// This is so that the text always changes location.
+radius+=9
+
+
+
+/**/
+}

@@ -1,0 +1,8 @@
+id: 15
+parent_name: obj_slope_1
+sprite_name: spr_slope2
+mask_name: ""
+depth: 0
+solid: 1
+visible: 1
+persistent: 0

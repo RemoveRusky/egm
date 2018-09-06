@@ -1,0 +1,8 @@
+with (other)
+{
+obj_player.points+=1 // Adds one point to the score
+instance_destroy() // destroy the point object 
+/* look at the upper tab:APPLIES TO:*OTHER i used this to destroy the other instance(the point) not the player.Other means
+the object colliding with the current object.
+/**/
+}

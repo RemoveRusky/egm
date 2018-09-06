@@ -1,0 +1,8 @@
+id: 25
+parent_name: ""
+sprite_name: spr_splash
+mask_name: ""
+depth: -10
+solid: 0
+visible: 1
+persistent: 0

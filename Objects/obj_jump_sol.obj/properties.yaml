@@ -1,0 +1,8 @@
+id: 12
+parent_name: obj_solid
+sprite_name: spr_jumpthrough
+mask_name: ""
+depth: 1
+solid: 1
+visible: 1
+persistent: 0
